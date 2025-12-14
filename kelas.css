@@ -615,17 +615,17 @@ body.dark-mode .member-card--teacher {
 
 .contact-form__input, .contact-form__textarea {
     padding: 15px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid black;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.1);
-    color: #ffffff;
+    color: black;
     font-family: var(--font-body);
     font-size: 1em;
     transition: border-color 0.3s, background-color 0.3s;
 }
 
 .contact-form__input::placeholder, .contact-form__textarea::placeholder {
-    color: #ccc;
+    color: black;
 }
 
 .contact-form__input:focus, .contact-form__textarea:focus {
@@ -790,4 +790,5 @@ body.dark-mode .member-card--teacher {
     .gallery__item {
         height: 200px;
     }
+
 }
