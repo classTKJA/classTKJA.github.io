@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Kelas | INTERAKTIF & KOMPLEKS FINAL</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="kelas.css">
+</head>
+<body class="light-mode">
+
+    <header class="header">
+        <div class="container header__wrapper">
+            <h1 class="logo">Kelas XII TKJ A </h1>
+            
+            <nav class="nav" id="main-nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#hero" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Tentang</a></li>
+                    <li class="nav__item"><a href="#gallery" class="nav__link">Galeri</a></li>
+                    <li class="nav__item"><a href="#members" class="nav__link">Anggota</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Kontak</a></li>
+                </ul>
+            </nav>
+            
+            <button id="dark-mode-toggle" class="mode-toggle" aria-label="Toggle Dark Mode">
+                ☀️
+            </button>
+            
+            <div class="header__controls">
+                <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Navigation">
+                    <span class="nav__toggle-icon"></span>
+                </button>
+            </div>
+            
+        </div>
+    </header>
+
+    <section id="hero" class="hero" data-aos="fade-up">
+        <div class="container hero__content">
+            <h2 class="hero__title">Selamat Malam! Mari Bersiap untuk Esok Hari</h2>
+            
+            <p class="hero__subtitle">
+                <span id="typed-text"></span>
+                <span class="typing-cursor">|</span>
+            </p>
+            
+            <a href="#gallery" class="button button--primary" data-aos="fade-up" data-aos-delay="900">Eksplorasi Momen</a>
+        </div>
+    </section>
+    
+    <section id="about" class="section section--light">
+        <div class="container section__content">
+            <h3 class="section__title">Tentang Kami</h3>
+            <p class="section__text">Kami adalah angkatan pelajar yang memiliki semangat kolaborasi tinggi. Kami percaya bahwa pendidikan bukan hanya tentang nilai, tetapi juga tentang membentuk karakter dan kontribusi nyata kepada masyarakat. Moto kami: **Belajar, Berkembang, Berdampak.**</p>
+        </div>
+    </section>
+
+    <section id="gallery" class="section section--dark">
+        <div class="container section__content">
+            <h3 class="section__title">Galeri Momen Terbaik</h3>
+            <div class="gallery__grid">
+                <img src="best1.jpg" data-src="best1.jpg" alt="Momen Kelas 1" class="gallery__item gallery-trigger" data-aos="fade-up">
+                
+                <img src="https://via.placeholder.com/400x300/1e88e5/ffffff?text=Acara+Kelas+B" data-src="https://via.placeholder.com/800x600/1e88e5/ffffff?text=FOTO+DETAIL+B" alt="Momen Kelas 2" class="gallery__item gallery-trigger" data-aos="fade-up" data-aos-delay="100">
+                
+                <img src="https://via.placeholder.com/400x300/1e88e5/ffffff?text=Acara+Kelas+C" data-src="https://via.placeholder.com/800x600/1e88e5/ffffff?text=FOTO+DETAIL+C" alt="Momen Kelas 3" class="gallery__item gallery-trigger" data-aos="fade-up" data-aos-delay="200">
+                
+                <img src="https://via.placeholder.com/400x300/1e88e5/ffffff?text=Acara+Kelas+D" data-src="https://via.placeholder.com/800x600/1e88e5/ffffff?text=FOTO+DETAIL+D" alt="Momen Kelas 4" class="gallery__item gallery-trigger" data-aos="fade-up" data-aos-delay="300">
+
+                <img src="https://via.placeholder.com/400x300/1e88e5/ffffff?text=Acara+Kelas+E" data-src="https://via.placeholder.com/800x600/1e88e5/ffffff?text=FOTO+DETAIL+E" alt="Momen Kelas 5" class="gallery__item gallery-trigger" data-aos="fade-up" data-aos-delay="400">
+                
+                <img src="https://via.placeholder.com/400x300/1e88e5/ffffff?text=Acara+Kelas+F" data-src="https://via.placeholder.com/800x600/1e88e5/ffffff?text=FOTO+DETAIL+F" alt="Momen Kelas 6" class="gallery__item gallery-trigger" data-aos="fade-up" data-aos-delay="500">
+            </div>
+        </div>
+    </section>
+
+    <section id="members" class="section section--light">
+        <div class="container section__content">
+            <h3 class="section__title">Struktur Kepengurusan Kelas</h3>
+            
+            <div class="filter-controls" data-aos="fade-up" data-aos-delay="100">
+                <button class="button filter-btn active-filter" data-filter="all">Semua Anggota</button>
+                <button class="button filter-btn" data-filter="inti">Pengurus Inti</button>
+                <button class="button filter-btn" data-filter="pria">Siswa Pria</button>
+                <button class="button filter-btn" data-filter="wanita">Siswa Wanita</button>
+                <button class="button filter-btn" data-filter="wali">Wali Kelas</button>
+            </div>
+            
+            <div class="members__grid members__grid--core">
+                
+                <div class="member-card member-card--teacher" data-aos="zoom-in" data-aos-duration="1000" data-role="wali" data-gender="wanita">
+                    <img src="https://via.placeholder.com/100x100/f0ad4e/ffffff?text=WALI+KELAS" alt="Foto Wali Kelas" class="member-card__photo">
+                    <h4 class="member-card__title">WALI KELAS</h4>
+                    <p class="member-card__name">Ibu. Heni Astuti, S P.d</p>
+                    <p class="member-card__jabatan member-card__jabatan--motto">"Mendidik dengan hati, membentuk masa depan."</p>
+                </div>
+
+                <div class="member-card member-card--core" data-aos="flip-left" data-role="inti" data-gender="pria">
+                    <img src="ChatGPT Image 10 Des 2025, 10.04.47.png" alt="Foto Ketua Kelas" class="member-card__photo">
+                    <h4 class="member-card__title">Ketua Kelas</h4>
+                    <p class="member-card__name">Reyza Firdaus</p>
+                    <p class="member-card__jabatan">Pemimpin dan Koordinator Utama</p>
+                </div>
+
+                <div class="member-card member-card--core" data-aos="flip-left" data-aos-delay="100" data-role="inti" data-gender="pria">
+                    <img src="https://via.placeholder.com/100x100/1e88e5/ffffff?text=WAKIL" alt="Foto Wakil Ketua" class="member-card__photo">
+                    <h4 class="member-card__title">Wakil Ketua</h4>
+                    <p class="member-card__name">Saipul Ramdan</p>
+                    <p class="member-card__jabatan">Penghubung dan Pengganti Ketua</p>
+                </div>
+
+                <div class="member-card member-card--core" data-aos="flip-left" data-aos-delay="200" data-role="inti" data-gender="wanita">
+                    <img src="https://via.placeholder.com/100x100/1e88e5/ffffff?text=SEKRE" alt="Foto Sekretaris" class="member-card__photo">
+                    <h4 class="member-card__title">Sekretaris</h4>
+                    <p class="member-card__name">Laela Kartika</p>
+                    <p class="member-card__jabatan">Pengarsipan dan Administrasi</p>
+                </div>
+            </div>
+            
+            <h3 class="section__title" style="margin-top: 80px; font-size: 2em;">Anggota Kelas (24 Siswa)</h3>
+
+            <div class="members__photo-grid">
+                
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="0" data-role="anggota" data-gender="pria">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A1" alt="Foto Anggota 1" class="member-photo-card__img">
+                    <p class="member-photo-card__name">bambang Subagja</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="50" data-role="anggota" data-gender="wanita">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A2" alt="Foto Anggota 2" class="member-photo-card__img">
+                    <p class="member-photo-card__name">Aat Atiyah</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="100" data-role="anggota" data-gender="wanita">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A3" alt="Foto Anggota 3" class="member-photo-card__img">
+                    <p class="member-photo-card__name">Adinda Fatharani Tariyanti Putri</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="150" data-role="anggota" data-gender="wanita">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A4" alt="Foto Anggota 4" class="member-photo-card__img">
+                    <p class="member-photo-card__name">Balqis Hanifah</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="200" data-role="anggota" data-gender="pria">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A5" alt="Foto Anggota 5" class="member-photo-card__img">
+                    <p class="member-photo-card__name">Bambang Pramono</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="250" data-role="anggota" data-gender="wanita">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A6" alt="Foto Anggota 6" class="member-photo-card__img">
+                    <p class="member-photo-card__name">Dahlia</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="300" data-role="anggota" data-gender="wanita">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A7" alt="Foto Anggota 7" class="member-photo-card__img">
+                    <p class="member-photo-card__name">Dewi Sri Lastari</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="350" data-role="anggota" data-gender="wanita">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A8" alt="Foto Anggota 8" class="member-photo-card__img">
+                    <p class="member-photo-card__name">Diajeng Firsa Ahmad</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="0" data-role="anggota" data-gender="wanita">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A9" alt="Foto Anggota 9" class="member-photo-card__img">
+                    <p class="member-photo-card__name">Hafifah Fauziah</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="50" data-role="anggota" data-gender="wanita">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A10" alt="Foto Anggota 10" class="member-photo-card__img">
+                    <p class="member-photo-card__name">Komalasari</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="100" data-role="anggota" data-gender="wanita">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A11" alt="Foto Anggota 11" class="member-photo-card__img">
+                    <p class="member-photo-card__name">Lufita Indriyanita</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="150" data-role="anggota" data-gender="wanita">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A12" alt="Foto Anggota 12" class="member-photo-card__img">
+                    <p class="member-photo-card__name">Marlianah</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="200" data-role="anggota" data-gender="wanita">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A13" alt="Foto Anggota 13" class="member-photo-card__img">
+                    <p class="member-photo-card__name">Marsya Aprilia</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="250" data-role="anggota" data-gender="wanita">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A14" alt="Foto Anggota 14" class="member-photo-card__img">
+                    <p class="member-photo-card__name">Neysa Azara Putri</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="300" data-role="anggota" data-gender="wanita">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A15" alt="Foto Anggota 15" class="member-photo-card__img">
+                    <p class="member-photo-card__name">Novi There Rani Saleha</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="350" data-role="anggota" data-gender="wanita">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A16" alt="Foto Anggota 16" class="member-photo-card__img">
+                    <p class="member-photo-card__name">Nurjanah</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="0" data-role="anggota" data-gender="wanita">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A17" alt="Foto Anggota 17" class="member-photo-card__img">
+                    <p class="member-photo-card__name">Oktappiani Salla Sabella Saputra</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="50" data-role="anggota" data-gender="wanita">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A18" alt="Foto Anggota 18" class="member-photo-card__img">
+                    <p class="member-photo-card__name">Ririn Aulia</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="150" data-role="anggota" data-gender="wanita">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A20" alt="Foto Anggota 20" class="member-photo-card__img">
+                    <p class="member-photo-card__name">Siti Arifah</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="200" data-role="anggota" data-gender="wanita">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A21" alt="Foto Anggota 21" class="member-photo-card__img">
+                    <p class="member-photo-card__name">Suminar</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="250" data-role="anggota" data-gender="wanita">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A22" alt="Foto Anggota 22" class="member-photo-card__img">
+                    <p class="member-photo-card__name">syifah Pauziah</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="300" data-role="anggota" data-gender="wanita">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A23" alt="Foto Anggota 23" class="member-photo-card__img">
+                    <p class="member-photo-card__name">Talita Putri</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="350" data-role="anggota" data-gender="wanita">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A24" alt="Foto Anggota 23" class="member-photo-card__img">
+                    <p class="member-photo-card__name">Vira Latifah Aruba</p>
+                </div>
+                <div class="member-photo-card" data-aos="fade-up" data-aos-delay="350" data-role="anggota" data-gender="wanita">
+                    <img src="https://via.placeholder.com/120x120/7986cb/ffffff?text=A24" alt="Foto Anggota 24" class="member-photo-card__img">
+                    <p class="member-photo-card__name">Wilda Yulia Ningsih</p>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="contact" class="section section--dark">
+        <div class="container section__content" data-aos="fade-zoom-in">
+            <h3 class="section__title">Hubungi Kami</h3>
+            <form id="contact-form" class="contact-form">
+                <input type="text" placeholder="Nama Lengkap" required class="contact-form__input">
+                <input type="email" placeholder="Email Aktif" required class="contact-form__input">
+                <textarea rows="5" placeholder="Pesan Anda..." required class="contact-form__textarea"></textarea>
+                <button type="submit" class="button button--primary contact-form__submit">Kirim Pesan</button>
+            </form>
+            <p id="form-message" class="contact-form__feedback"></p>
+        </div>
+    </section>
+
+
+    <div id="lightbox-modal" class="lightbox-modal">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-image" alt="Foto Penuh Kelas">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+    
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">&copy; 2025 Kelas [Nama Kelas]. Visi & Misi Kami.</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true 
+        });
+    </script>
+    
+    <script src="kelas.js"></script>
+</body>
+</html>
