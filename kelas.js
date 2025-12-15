@@ -86,7 +86,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
-   // ===========================================
+   
+    // ===========================================
     // 3. Greeting Message Dinamis (FIXED)
     // ===========================================
     const heroTitle = document.querySelector('.hero__title');
@@ -107,7 +108,6 @@ document.addEventListener('DOMContentLoaded', () => {
         // FIX: Langsung terapkan pesan sambutan dinamis
         heroTitle.textContent = greeting;
     }
-
 
     // ===========================================
     // 4. Typing Effect pada Subtitle
@@ -491,4 +491,5 @@ $(document).ready(function(){
         }
     });
 });
+
 
