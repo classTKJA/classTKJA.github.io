@@ -9,7 +9,7 @@
     --color-secondary: #ffc107; /* Kuning Aksen */
     --color-text: #333333;
     --color-background-light: #f9f9f9;
-    --color-background-dark: #ecf0f1;
+    --color-background-dark: rgba(0,0,0, 0.5);
     --color-surface: #ffffff;
     --color-shadow: rgba(0, 0, 0, 0.08);
     --font-heading: 'Lora', serif;
